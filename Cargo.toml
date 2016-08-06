@@ -4,3 +4,7 @@ version = "0.1.0"
 authors = ["Tatsuya Takamura <takamura@tonchidot.com>"]
 
 [dependencies]
+
+[[bin]]
+name = "hello_rust"
+path = "src/hello_rust/main.rs"
