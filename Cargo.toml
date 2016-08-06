@@ -13,3 +13,7 @@ path = "src/hello_rust/main.rs"
 [[bin]]
 name = "guess"
 path = "src/guess/main.rs"
+
+[[bin]]
+name = "syntax"
+path = "src/syntax/main.rs"
