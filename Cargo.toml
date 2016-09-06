@@ -5,6 +5,7 @@ authors = ["Tatsuya Takamura <takamura@tonchidot.com>"]
 
 [dependencies]
 rand="0.3.0"
+primal = "~0.2.3"
 
 [[bin]]
 name = "hello_rust"
@@ -17,3 +18,7 @@ path = "src/guess/main.rs"
 [[bin]]
 name = "syntax"
 path = "src/syntax/main.rs"
+
+[[bin]]
+name = "day2"
+path = "src/24days/day2.rs"
