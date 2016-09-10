@@ -6,6 +6,8 @@ authors = ["Tatsuya Takamura <takamura@tonchidot.com>"]
 [dependencies]
 rand="0.3.0"
 primal = "~0.2.3"
+csv = "~0.14.7"
+rustc-serialize = "~0.3.18"
 
 [[bin]]
 name = "hello_rust"
@@ -22,3 +24,7 @@ path = "src/syntax/main.rs"
 [[bin]]
 name = "day2"
 path = "src/24days/day2.rs"
+
+[[bin]]
+name = "day3"
+path = "src/24days/day3.rs"
