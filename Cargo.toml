@@ -8,6 +8,7 @@ rand="0.3.0"
 primal = "~0.2.3"
 csv = "~0.14.7"
 rustc-serialize = "~0.3.18"
+docopt = "~0.6.78"
 
 [[bin]]
 name = "hello_rust"
@@ -28,3 +29,7 @@ path = "src/24days/day2.rs"
 [[bin]]
 name = "day3"
 path = "src/24days/day3.rs"
+
+[[bin]]
+name = "day4"
+path = "src/24days/day4.rs"
